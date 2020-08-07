@@ -86,8 +86,260 @@
 body{
     margin: 0;
     font-family: Roboto;
+    line-height: 1.5;  
+    
 }
 
-h1 {
-    font-style: italic;
+.heading {
+    color: #fff;
+}
+
+.gallery-item {
+    height: 250px; 
+    background-position: center;
+    background-size: cover;
+}
+
+.gallery-item:hover {
+    transform: scale(1.1);
+    z-index: 100;
+}
+
+#header{
+    min-height: 100vh;
+    background-image: url(../img/e.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    z-index: 1;
+}
+
+#header:before{
+
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#000000;
+    opacity: 0.7;
+    z-index: -1;
+
+}
+
+#header .row {
+    min-height: 100vh;
+}
+
+#header .home-content h1{
+    font-size: 80px;
+    color: #ffffff;
+    margin: 0;
+}
+
+#header .home-content h3{
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+
+
+#about {
+    background-color: lightyellow;
+}
+
+#about .about-left p {
+    
+}
+
+#about .about-right img{
+    border-radius: 50%;
+    width: 300px;
+}
+
+#workshop {
+    background-color: lightgray;
+}
+
+#tips{
+    min-height: 100vh;
+    background-image: url(../img/f.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    z-index: 1;
+}
+
+#tips:before{
+
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#000000;
+    opacity: 0.7;
+    z-index: -1;
+
+}
+
+#tips .tips-content h1{
+    font-size: 80px;
+    color: #ffffff;
+    margin: 0;
+}
+
+#tips .tips-content h3{
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+}
+
+#tips .tips-content h4{
+    font-size: 30px;
+    color: #ffffff;
+    margin: 0;
+}
+
+#tips .tips-content h5{
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+}
+
+#tips .tips-content p{
+    font-size: 15px;
+    color: #ffffff;
+    margin: 0;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.footer-section{
+    background: url(../img/form.png) no-repeat center;
+    background-size: cover;
+    padding: 40px 0px;
+}
+
+
+
+.contact-section h1{
+    text-align: center;
+    color: #ddd;
+}
+ 
+.border{
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
+
+}
+
+.contact.form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text{
+    display: block;
+     width: 100%;
+     box-sizing: border-box;
+     margin: 16px 0;
+     border: 0;
+     background: #111;
+     padding: 20px 40px;
+     outline: none;
+     color: #ddd;
+     transition: 0.5s;
+
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+    background: #2980b9;
+}
+
+#aboutHeader{
+    background-image: url(../img/e.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    padding-top: 50px;
+}
+
+#aboutHeader:before{
+
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#000000;
+    opacity: 0.7;
+    z-index: -1;
+
+}
+
+#aboutHeader .row {
+    height: 200px;
+}
+
+#aboutHeader .home-content h1{
+    font-size: 80px;
+    color: #ffffff;
+    margin: 0;
+}
+
+#About ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+#About ul li::before{
+    padding: 0px 10px;
+    content: "";
+    background-color: #34495e;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#About ul li{
+    width: 33%;
+    margin: 5px 0;
 }
