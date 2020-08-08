@@ -137,6 +137,7 @@ body{
     font-size: 80px;
     color: #ffffff;
     margin: 0;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 #header .home-content h3{
@@ -153,6 +154,15 @@ body{
     background-color: lightyellow;
 }
 
+#about h1{
+    text-shadow: 2px 2px 4px black;
+}
+
+#about p{
+    text-shadow: 2px 2px 4px gray;
+}
+
+
 #about .about-left p {
     
 }
@@ -165,6 +175,28 @@ body{
 #workshop {
     background-color: lightgray;
 }
+
+#workshop h1{
+    text-shadow: 2px 2px 4px black;
+}
+
+#workshop h4{
+    text-shadow: 2px 2px 4px black;
+}
+
+#workshop h5{
+    text-shadow: 2px 2px 4px black;
+}
+
+#workshop h2{
+    text-shadow: 2px 2px 4px black;
+}
+
+#workshop ul{
+    text-shadow: 2px 2px 4px gray;
+}
+
+
 
 #tips{
     min-height: 100vh;
@@ -194,6 +226,7 @@ body{
     font-size: 80px;
     color: #ffffff;
     margin: 0;
+
 }
 
 #tips .tips-content h3{
@@ -216,10 +249,16 @@ body{
 
 #tips .tips-content p{
     font-size: 15px;
-    color: #ffffff;
+    color:#ffffff;
     margin: 0;
     
 }
+
+
+#tips-card{
+    color: black;
+}
+
 *{
     margin: 0;
     padding: 0;
